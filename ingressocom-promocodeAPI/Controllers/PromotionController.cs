@@ -1,16 +1,18 @@
-﻿using ingressocom_promocodeAPI.ViewModels;
+﻿using ingressocom_promocodeAPI.Domain.Entites;
+using ingressocom_promocodeAPI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
 namespace ingressocom_promocodeAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class PromotionController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<decimal> Get([FromBody]TheaterViewModel myViewModel)
+        public ActionResult<decimal> Get([FromBody]CartViewModel cart)
         {
+            
             throw new NotImplementedException();
         }
     }

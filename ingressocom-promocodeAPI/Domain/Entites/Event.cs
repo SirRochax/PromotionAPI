@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ingressocom_promocodeAPI.Domain.Entites
 {
-    public class Movies
+    public class Event
     {
         [BsonId]
-        public string Id { get; set; }
+        public string _id { get; set; }
         public string Name { get; set; }
     }
 }

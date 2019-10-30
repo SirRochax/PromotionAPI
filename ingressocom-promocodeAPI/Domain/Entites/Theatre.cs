@@ -1,13 +1,15 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace ingressocom_promocodeAPI.Domain.Entites
 {
-    public class Theaters
+    public class Theatre
     {
-        public  string Id { get; set; }
+        [BsonId]
+        public  string _id { get; set; }
         public string Name { get; set; }
     }
 }
