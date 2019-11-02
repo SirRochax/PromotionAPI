@@ -10,7 +10,7 @@ namespace ingressocom_promocodeAPI.Repositories
 {
     public class PromotionRepository : IPromotionRepository
     {
-        public async Task<Promotion> GetPromocodeByIdAsync(string id)
+        public async Task<Promotion> GetPromotionByIdAsync(string id)
         {
             var client = new MongoClient("mongodb://localhost:27017");
             var db = client.GetDatabase("PromotionAPI");

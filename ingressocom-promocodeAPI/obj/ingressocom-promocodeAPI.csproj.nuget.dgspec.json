@@ -1,33 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {}
+    "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {
+    "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
+        "projectUniqueName": "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
         "projectName": "ingressocom-promocodeAPI",
-        "projectPath": "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
-        "packagesPath": "C:\\Users\\matheus.gasparini\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\obj\\",
+        "projectPath": "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\matheus.gasparini\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://dev-repositories.ingresso.local/nuget/web-nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

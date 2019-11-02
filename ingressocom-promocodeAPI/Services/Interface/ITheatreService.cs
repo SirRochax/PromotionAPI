@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ingressocom_promocodeAPI.Services.Interface
 {
-    public interface IValidateEvent
+    public interface ITheatreService
     {
-        Task<Event> ValidateById(string id);
+        Task<bool> ValidateTheatre(string id, string name);
     }
 }
