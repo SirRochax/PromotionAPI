@@ -10,7 +10,7 @@ namespace ingressocom_promocodeAPI.Domain.Entites
     public class Promocode
     {
         [BsonId]
-        public ObjectId _id { get; set; }
+        public string _id { get; set; }
         public string Code { get; set; }
         public string PromotionId { get; set; }
     }

@@ -1,5 +1,8 @@
-﻿using ingressocom_promocodeAPI.Repositories;
+﻿using ingressocom_promocodeAPI.AppConfig;
+using ingressocom_promocodeAPI.Repositories;
 using ingressocom_promocodeAPI.Repositories.Interface;
+using ingressocom_promocodeAPI.Services;
+using ingressocom_promocodeAPI.Services.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -20,6 +23,13 @@ namespace ingressocom_promocodeAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new SwaggerConfig { Title = "Promotion API", Version = "v1" });
+            });
+            services.AddTransient<ITheatreService, TheatreService>();
+            services.AddTransient<IPromotionService, PromotionService>();
+            services.AddTransient<IEventService, EventService>();
             services.AddTransient<IPromotionRepository, PromotionRepository>();
             services.AddTransient<IPromocodeRepository, PromocodeRepository>();
             services.AddTransient<IEventRepository, EventRepository>();
@@ -30,6 +40,13 @@ namespace ingressocom_promocodeAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger", "PromotionAPI");
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

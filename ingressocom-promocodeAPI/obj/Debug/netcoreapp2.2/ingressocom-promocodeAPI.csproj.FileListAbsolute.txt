@@ -34,3 +34,17 @@ C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-p
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorTargetAssemblyInfo.cache
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.deps.json
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.json
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.dev.json
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.csprojAssemblyReference.cache
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.csproj.CoreCompileInputs.cache
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cache
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cs
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfoInputs.cache
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfo.cs
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorTargetAssemblyInfo.cache
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
+D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb

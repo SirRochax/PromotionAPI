@@ -13,7 +13,7 @@ namespace ingressocom_promocodeAPI.Domain.Entites
         public string Name { get; set; }
         public List<string> TheatreId { get; set; }
         public List<string> MovieId { get; set; }
-        public DateTime Date { get; set; }
+        public List<int> DayOfWeek { get; set; }
         public decimal Discount { get; set; }
         public DiscountType DiscountType { get; set; }
     }

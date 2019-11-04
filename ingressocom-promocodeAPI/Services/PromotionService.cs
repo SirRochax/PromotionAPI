@@ -19,26 +19,132 @@ namespace ingressocom_promocodeAPI.Services
 
         public async Task<bool> ValidatePromotionConditions(CartViewModel cart, string promotionId)
         {
-            var boolean,  = false;
+            var promotionIsValid = false;
+            var EventIsValid = false;
+            var TheatreIsValid = false;
+            var DateIsValid = false;
+
             var promotion = await PromotionRepository.GetPromotionByIdAsync(promotionId);
 
+            //valida caso haja regra da promocao por Filme
             if (promotion.MovieId != null)
+            {
                 foreach (string movieId in promotion.MovieId)
                     if (movieId == cart.Session.Event._id)
                     {
-                        boolean = true;
+                        EventIsValid = true;
+                        break;
+                    }
+            }
+            else
+            {
+                EventIsValid = true;
+            }
+
+            //valida caso haja regra da promocao por filme
+            if (promotion.TheatreId != null)
+            {
+                foreach (string theatreId in promotion.TheatreId)
+                    if (theatreId == cart.Session.Theatre._id)
+                    {
+                        TheatreIsValid = true;
+                        break;
+                    }
+            }
+            else
+            {
+                TheatreIsValid = true;
+            }
+
+            //valida caso haja regra da promocao por Dia da semana
+            if (promotion.DayOfWeek != null)
+            {
+                var sessionDayOfWeek = cart.Session.Date.DayOfWeek;
+
+                foreach (int dayOfWeek in promotion.DayOfWeek)
+                    if (dayOfWeek == Convert.ToInt32(sessionDayOfWeek))
+                    {
+                        DateIsValid = true;
+                        break;
+                    }
+            }
+            else
+            {
+                DateIsValid = true;
+            }
+
+            //verifica se todas as regras da promocao foram contempladas
+            if (EventIsValid && TheatreIsValid && DateIsValid)
+                promotionIsValid = true;
+
+            return promotionIsValid;
+        }
+
+        public async Task<decimal> GetPromotionDiscount(CartViewModel cart, string promotionId)
+        {
+            decimal ticketValue = 0;
+            decimal finalDiscount = 0;
+
+            var promotion = await PromotionRepository.GetPromotionByIdAsync(promotionId);
+
+            switch (Convert.ToInt32(promotion.DiscountType))
+            {
+                case 0:
+
+                    foreach (Ticket ticket in cart.Session.Ticket)
+                    {
+                        if (ticketValue < ticket.Price)
+                            ticketValue = ticket.Price;
+                    }
+
+                    if (promotion.Discount > ticketValue)
+                    {
+                        finalDiscount = ticketValue;
                         break;
                     }
 
-            foreach (string theatreId in promotion.TheatreId)
-                if (promotion.TheatreId != null && theatreId == cart.Session.Theatre._id)
-                {
-                    boolean = true;
+                    finalDiscount = promotion.Discount;
                     break;
-                }
 
+                case 1:
 
-            return boolean;
+                    ticketValue = cart.Session.Ticket[0].Price;
+
+                    foreach (Ticket ticket in cart.Session.Ticket)
+                    {
+                        if (ticketValue > ticket.Price)
+                            ticketValue = ticket.Price;
+                    }
+
+                    if (promotion.Discount > ticketValue)
+                    {
+                        finalDiscount = ticketValue;
+                        break;
+                    }
+
+                    finalDiscount = promotion.Discount;
+                    break;
+
+                case 2:
+
+                    decimal totalPrice = 0;
+
+                    foreach (Ticket ticket in cart.Session.Ticket)
+                    {
+                        totalPrice += ticket.Price;
+                    }
+
+                    if (promotion.Discount > totalPrice)
+                    {
+                        finalDiscount = totalPrice;
+                        break;
+                    }
+
+                    finalDiscount = promotion.Discount;
+                    break;
+            }
+
+            return finalDiscount;
         }
     }
 }

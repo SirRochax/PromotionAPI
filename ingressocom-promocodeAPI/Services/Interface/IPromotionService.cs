@@ -9,5 +9,6 @@ namespace ingressocom_promocodeAPI.Services.Interface
     public interface IPromotionService
     {
         Task<bool> ValidatePromotionConditions(CartViewModel cart, string promotionId);
+        Task<decimal> GetPromotionDiscount(CartViewModel cart, string promotionId);
     }
 }
