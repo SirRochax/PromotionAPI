@@ -20,9 +20,11 @@ namespace ingressocom_promocodeAPI.Services
         {
             var theatre = await TheatreRepository.GetTheatreByIdAsync(id);
 
-            if (theatre._id != id)
+            if (theatre == null)
                 return false;
 
+            if (theatre._id != id)
+                return false;
 
             if (theatre.Name != name)
                 return false;

@@ -22,7 +22,7 @@ namespace ingressocom_promocodeAPI.ViewModels
         public Event Event { get; set; }
         public DateTime Date { get; set; }
         public Theatre Theatre { get; set; }
-        public List<Ticket> Ticket { get; set; }
+        public List<Ticket> Tickets { get; set; }
     }
 
     public class Ticket

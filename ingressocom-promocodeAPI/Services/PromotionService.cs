@@ -91,7 +91,7 @@ namespace ingressocom_promocodeAPI.Services
             {
                 case 0:
 
-                    foreach (Ticket ticket in cart.Session.Ticket)
+                    foreach (Ticket ticket in cart.Session.Tickets)
                     {
                         if (ticketValue < ticket.Price)
                             ticketValue = ticket.Price;
@@ -108,9 +108,9 @@ namespace ingressocom_promocodeAPI.Services
 
                 case 1:
 
-                    ticketValue = cart.Session.Ticket[0].Price;
+                    ticketValue = cart.Session.Tickets[0].Price;
 
-                    foreach (Ticket ticket in cart.Session.Ticket)
+                    foreach (Ticket ticket in cart.Session.Tickets)
                     {
                         if (ticketValue > ticket.Price)
                             ticketValue = ticket.Price;
@@ -129,7 +129,7 @@ namespace ingressocom_promocodeAPI.Services
 
                     decimal totalPrice = 0;
 
-                    foreach (Ticket ticket in cart.Session.Ticket)
+                    foreach (Ticket ticket in cart.Session.Tickets)
                     {
                         totalPrice += ticket.Price;
                     }

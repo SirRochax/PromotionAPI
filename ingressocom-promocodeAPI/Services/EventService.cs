@@ -20,9 +20,11 @@ namespace ingressocom_promocodeAPI.Services
         {
             var movie = await EventRepository.GetEventByIdAsync(id);
 
-            if (movie._id != id)
+            if(movie == null)
                 return false;
 
+            if (movie._id != id)
+                return false;
 
             if (movie.Name != name)
                 return false;

@@ -29,7 +29,7 @@ namespace ingressocom_promocodeAPI.Controllers
         {
             string response = null;
 
-            if(cart != null)
+            if (cart != null)
             {
                 var movieValidation = await EventService.ValidateEvent(cart.Session.Event._id, cart.Session.Event.Name);
 
@@ -43,17 +43,17 @@ namespace ingressocom_promocodeAPI.Controllers
 
                 var promocode = await PromocodeRepository.GetPromocodeByCodeAsync(cart.Promocode);
 
-                if(promocode == null)
+                if (promocode == null)
                     return NotFound("Promocode Inválido!");
 
                 var promotionValidation = await PromotionService.ValidatePromotionConditions(cart, promocode._id);
 
-                if(!promotionValidation)
+                if (!promotionValidation)
                     return ("A compra não atende as regras da promoção!");
 
                 var discount = await PromotionService.GetPromotionDiscount(cart, promocode._id);
 
-                response = string.Format("Desconto realizado: R$ {0}", discount);
+                response = string.Format($"Desconto realizado: R$ {0}", discount);
             }
             else
             {

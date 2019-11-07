@@ -15,7 +15,7 @@ namespace ingressocom_promocodeAPI.Repositories
         {
             var client = new MongoClient("mongodb://localhost:27017");
             var db = client.GetDatabase("PromotionAPI");
-            var coll = db.GetCollection<Event>("Movies");
+            var coll = db.GetCollection<Event>("Events");
 
             var movie = await coll.Find(c => c._id == id).FirstOrDefaultAsync();
 
