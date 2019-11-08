@@ -13,7 +13,7 @@ namespace ingressocom_promocodeAPI.Domain.Entites
         public string Name { get; set; }
         public string TheatreId { get; set; }
         public string MovieId { get; set; }
-        public List<DayOfWeek> DayOfWeek { get; set; }
+        public List<DaysOfWeek> DaysOfWeek { get; set; }
         public decimal Discount { get; set; }
         public DiscountType DiscountType { get; set; }
     }
@@ -25,7 +25,7 @@ namespace ingressocom_promocodeAPI.Domain.Entites
         TOTAL
     }
 
-    public class DayOfWeek
+    public class DaysOfWeek
     {
         public int Day { get; set; }
     }

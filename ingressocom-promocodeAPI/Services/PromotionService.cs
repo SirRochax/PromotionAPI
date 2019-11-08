@@ -48,11 +48,11 @@ namespace ingressocom_promocodeAPI.Services
             }
 
             //valida caso haja regra da promocao por Dia da semana
-            if (promotion.DayOfWeek != null)
+            if (promotion.DaysOfWeek != null)
             {
                 var sessionDayOfWeek = cart.Session.Date.DayOfWeek;
 
-                foreach (var dayOfWeek in promotion.DayOfWeek)
+                foreach (var dayOfWeek in promotion.DaysOfWeek)
                     if (dayOfWeek.Day == Convert.ToInt32(sessionDayOfWeek))
                     {
                         DateIsValid = true;

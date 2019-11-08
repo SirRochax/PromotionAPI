@@ -20,19 +20,6 @@ C:\Users\Matheus\Documents\ingressocom-promocodeAPI\ingressocom-promocodeAPI\obj
 C:\Users\Matheus\Documents\ingressocom-promocodeAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfo.cs
 C:\Users\Matheus\Documents\ingressocom-promocodeAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
 C:\Users\Matheus\Documents\ingressocom-promocodeAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.deps.json
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.json
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.dev.json
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.csprojAssemblyReference.cache
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cache
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cs
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfoInputs.cache
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfo.cs
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorTargetAssemblyInfo.cache
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.deps.json
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.json
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.dev.json
@@ -47,6 +34,22 @@ D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\in
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorTargetAssemblyInfo.cache
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cache
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cs
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfoInputs.cache
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfo.cs
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\Database\Collections\Events.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\Database\Collections\Promocodes.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\Database\Collections\Promotions.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\Database\Collections\Theatres.json
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.deps.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.runtimeconfig.dev.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorTargetAssemblyInfo.cache
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb

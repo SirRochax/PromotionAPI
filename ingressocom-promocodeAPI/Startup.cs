@@ -1,5 +1,4 @@
-﻿using ingressocom_promocodeAPI.AppConfig;
-using ingressocom_promocodeAPI.Repositories;
+﻿using ingressocom_promocodeAPI.Repositories;
 using ingressocom_promocodeAPI.Repositories.Interface;
 using ingressocom_promocodeAPI.Services;
 using ingressocom_promocodeAPI.Services.Interface;
