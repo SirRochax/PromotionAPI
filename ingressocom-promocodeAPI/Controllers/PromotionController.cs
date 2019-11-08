@@ -24,6 +24,7 @@ namespace ingressocom_promocodeAPI.Controllers
             PromotionService = _PromotionService;
             PromocodeRepository = _PromocodeRepository;
         }
+
         [HttpGet]
         public async Task<ActionResult<string>> Get([FromBody]CartViewModel cart)
         {
@@ -46,14 +47,14 @@ namespace ingressocom_promocodeAPI.Controllers
                 if (promocode == null)
                     return NotFound("Promocode Inválido!");
 
-                var promotionValidation = await PromotionService.ValidatePromotionConditions(cart, promocode._id);
+                var promotionValidation = await PromotionService.ValidatePromotionConditions(cart, promocode.PromotionId);
 
                 if (!promotionValidation)
                     return ("A compra não atende as regras da promoção!");
 
-                var discount = await PromotionService.GetPromotionDiscount(cart, promocode._id);
+                var discount = await PromotionService.GetPromotionDiscount(cart, promocode.PromotionId);
 
-                response = string.Format($"Desconto realizado: R$ {0}", discount);
+                response = string.Format($"Desconto realizado: R$ {discount}", discount);
             }
             else
             {

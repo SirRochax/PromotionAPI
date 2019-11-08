@@ -11,9 +11,9 @@ namespace ingressocom_promocodeAPI.Domain.Entites
         [BsonId]
         public string _id { get; set; }
         public string Name { get; set; }
-        public List<string> TheatreId { get; set; }
-        public List<string> MovieId { get; set; }
-        public List<int> DayOfWeek { get; set; }
+        public string TheatreId { get; set; }
+        public string MovieId { get; set; }
+        public List<DayOfWeek> DayOfWeek { get; set; }
         public decimal Discount { get; set; }
         public DiscountType DiscountType { get; set; }
     }
@@ -23,5 +23,10 @@ namespace ingressocom_promocodeAPI.Domain.Entites
         HIGHER,
         SMALLER,
         TOTAL
+    }
+
+    public class DayOfWeek
+    {
+        public int Day { get; set; }
     }
 }

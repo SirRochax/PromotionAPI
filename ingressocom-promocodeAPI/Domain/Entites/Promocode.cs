@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace ingressocom_promocodeAPI.Domain.Entites
 {
+    [BsonIgnoreExtraElements]
     public class Promocode
     {
-        [BsonId]
-        public string _id { get; set; }
         public string Code { get; set; }
         public string PromotionId { get; set; }
     }

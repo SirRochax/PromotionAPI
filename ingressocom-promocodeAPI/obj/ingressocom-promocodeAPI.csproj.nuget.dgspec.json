@@ -1,30 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {}
+    "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {}
   },
   "projects": {
-    "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {
+    "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
         "projectName": "ingressocom-promocodeAPI",
-        "projectPath": "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorios\\PromotionAPI\\ingressocom-promocodeAPI\\obj\\",
+        "projectPath": "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\ingressocom-promocodeAPI.csproj",
+        "packagesPath": "C:\\Users\\matheus.gasparini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.gasparini\\Documents\\Estudos\\Teste Back End Junior\\ingressocom-promocodeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\matheus.gasparini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://dev-repositories.ingresso.local/nuget/web-nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,10 +71,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

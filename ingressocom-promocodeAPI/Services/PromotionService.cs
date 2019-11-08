@@ -1,6 +1,7 @@
 ﻿using ingressocom_promocodeAPI.Repositories.Interface;
 using ingressocom_promocodeAPI.Services.Interface;
 using ingressocom_promocodeAPI.ViewModels;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,27 +30,17 @@ namespace ingressocom_promocodeAPI.Services
             //valida caso haja regra da promocao por Filme
             if (promotion.MovieId != null)
             {
-                foreach (string movieId in promotion.MovieId)
-                    if (movieId == cart.Session.Event._id)
-                    {
-                        EventIsValid = true;
-                        break;
-                    }
+                if (promotion.MovieId == cart.Session.Event._id)
+                    EventIsValid = true;
             }
             else
-            {
                 EventIsValid = true;
-            }
 
             //valida caso haja regra da promocao por filme
             if (promotion.TheatreId != null)
             {
-                foreach (string theatreId in promotion.TheatreId)
-                    if (theatreId == cart.Session.Theatre._id)
-                    {
-                        TheatreIsValid = true;
-                        break;
-                    }
+                if (promotion.TheatreId == cart.Session.Theatre._id)
+                    TheatreIsValid = true;
             }
             else
             {
@@ -61,8 +52,8 @@ namespace ingressocom_promocodeAPI.Services
             {
                 var sessionDayOfWeek = cart.Session.Date.DayOfWeek;
 
-                foreach (int dayOfWeek in promotion.DayOfWeek)
-                    if (dayOfWeek == Convert.ToInt32(sessionDayOfWeek))
+                foreach (var dayOfWeek in promotion.DayOfWeek)
+                    if (dayOfWeek.Day == Convert.ToInt32(sessionDayOfWeek))
                     {
                         DateIsValid = true;
                         break;

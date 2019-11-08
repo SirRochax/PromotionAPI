@@ -16,9 +16,17 @@ namespace ingressocom_promocodeAPI.Repositories
             var db = client.GetDatabase("PromotionAPI");
             var coll = db.GetCollection<Promocode>("Promocodes");
 
-            var promocode = await coll.Find(c => c.Code == code).FirstOrDefaultAsync();
+            try
+            {
+                var promocode = await coll.Find(c => c.Code == code).FirstOrDefaultAsync();
 
-            return promocode;
+                return promocode;
+            }
+            catch (Exception e)
+            {
+
+                throw;
+            }
         }
     }
 }

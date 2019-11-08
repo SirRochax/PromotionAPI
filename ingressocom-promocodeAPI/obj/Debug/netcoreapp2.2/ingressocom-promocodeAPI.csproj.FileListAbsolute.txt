@@ -26,7 +26,6 @@ C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-p
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.csprojAssemblyReference.cache
-C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.csproj.CoreCompileInputs.cache
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cache
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorAssemblyInfo.cs
 C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.AssemblyInfoInputs.cache
@@ -48,3 +47,6 @@ D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\in
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.RazorTargetAssemblyInfo.cache
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.dll
 D:\Repositorios\PromotionAPI\ingressocom-promocodeAPI\obj\Debug\netcoreapp2.2\ingressocom-promocodeAPI.pdb
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\matheus.gasparini\Documents\Estudos\Teste Back End Junior\ingressocom-promocodeAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
