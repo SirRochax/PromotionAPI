@@ -24,6 +24,7 @@ Como rodar a aplicação:
       mongoimport --db PromotionAPI --collection Promotions --file="<PROJECT-PATH>\ingressocom-promocodeAPI\Database\Collections\Promotions.json"
   
   3 - Rode a aplicação e chame o EndPoint GET na rota https://localhost:44308/Promotion/, segue abaixo um modelo de carrinho:
+  
   {
 	"_id": "5d8a8bb3751cbf9ce00b5b6d",
 	"Date": "2019-09-24T21:33:38.929Z",
